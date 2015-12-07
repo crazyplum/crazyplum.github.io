@@ -2996,7 +2996,7 @@
 
 		.spotlight.top .content {
 			border-bottom-width: 0.35em;
-			top: 0;
+			top: 10;
 		}
 
 		.spotlight.bottom .content {
@@ -3081,6 +3081,17 @@
 
 	.wrapper {
 		padding: 6em 0 4em 0;
+		height: 100vh;
+	}
+
+	.wrapper .container {
+		position: relative;
+  	top: 30%;
+  	transform: translateY(-50%);
+	}
+	.wrapper footer{
+		position: relative;
+		bottom: 0;
 	}
 
 		.wrapper.style2 {

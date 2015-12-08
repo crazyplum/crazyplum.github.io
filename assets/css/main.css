@@ -2641,16 +2641,19 @@
 			list-style: none;
 			padding-left: 2em;
 		}
-
 			ul.projs li {
 				display: inline-block;
 				padding: 0 1em 0 0;
 				width: 100%;
-				margin-top: 2em;
+				margin-top: 2.5em;
 				vertical-align: middle;
 			}
+			ul.projs li p{
+				text-indent: 2em;
+				margin: 0 0 0 0;
+			}
 			ul.projs .image{
-				width: 20em;
+				width: 15em;
 			}
 
 	dl {
@@ -3110,7 +3113,7 @@
 		/*height: 100vh;*/
 	}
 
-	
+
 
 		.wrapper.style2 {
 			background: #e44c65;
